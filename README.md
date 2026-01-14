@@ -1,6 +1,6 @@
 **Data Privacy**
 
-This dataset contains private and sensitive medical data and is provided strictly for research and educational purposes. 
+This repository contains private and sensitive medical data and is provided strictly for research and educational purposes. 
 Users must handle the data with care and comply with all applicable ethical guidelines, data protection regulations, and institutional review requirements.
 Redistribution, re-identification attempts, or use for commercial or clinical decision-making is strictly prohibited. 
 By using this dataset, you agree to take full responsibility for ensuring appropriate data security and lawful use.
