@@ -1,4 +1,4 @@
-**EEG Data Processign and Decoding**
+``EEG Data Processign and Decoding''
 
 
 - The python file *fair_nael_source codes.py* contains the complete codes to reproduce the results for decoding EEG data for AD, CJD, Contrl subjects.
