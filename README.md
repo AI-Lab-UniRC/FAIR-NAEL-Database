@@ -8,7 +8,6 @@ If you use this dataset in any publication, presentation, or derived work, pleas
 
 _______________________________________________________________________________________________________________________________________
 
-**Dataset Description**
 
 **For EEG Data look for Release 1.**
 
@@ -18,3 +17,16 @@ Each subbfolder includes further two sub-folders named as X_TXT and X_XLSX.
 X_TXT is a folder with raw data files of all subjects related to X disease/class.
 X_XLSX is a folder that contains the information of signal discontinuity from start to end (da:start and a:end) over the time, for all subjects related to X disease/class.
 The dataset is balanced with each class having 12 subjects.
+
+_______________________________________________________________________________________________________________________________________
+
+**For TAC Image Data look for Release 2.**
+
+The tac images are provided in Release 2, these are 6 files corresponding to rectocolone cancer.
+Further details are provided in TAC folder.
+
+________________________________________________________________________________________________________________________________________
+
+** Acknowledgements**
+
+YET TO ADD..
