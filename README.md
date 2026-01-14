@@ -6,6 +6,8 @@ Redistribution, re-identification attempts, or use for commercial or clinical de
 By using this dataset, you agree to take full responsibility for ensuring appropriate data security and lawful use.
 If you use this dataset in any publication, presentation, or derived work, please give proper credit to the original data source as specified by the authors.
 
+_______________________________________________________________________________________________________________________________________
+
 **Dataset Description**
 
 **For EEG Data look for Release 1.**
