@@ -22,9 +22,39 @@ ________________________________________________________________________________
 
 **For TAC Image Data look for Release 2.**
 
-The tac images are provided in Release 2, these are 6 files corresponding to rectocolone cancer.
-Further details are provided in TAC folder.
+# Recto-Colon Cancer TAC Dataset Report
 
+## 1. Dataset Overview
+a medical imaging dataset composed of six files with no file extension. Each file corresponds to a single patient CT scan (TAC - Tomografía Axial Computarizada), representing recto-colon cancer cases. The files are stored in a raw binary format, where each file represents a complete 3D volumetric scan of the patient.
+
+## 2. Technical Specifications
+* **File Format:** Raw binary data
+* **Data Type:** 8-bit unsigned integers (`uint8`)
+* **Spatial Resolution:** 512 × 512 pixels per slice 
+
+
+## 3. Volume Specifications
+The dataset contains volumetric data with the following slice counts and file sizes:
+
+| Patient | Dimensions | Slices | Size (MB) |
+| :--- | :--- | :--- | :--- |
+| **TC_0001** | (512, 512) | 2096 | 524 |
+| **TC_0002** | (512, 512) | 2408 | 602 |
+| **TC_0003** | (512, 512) | 1816 | 454 |
+| **TC_0004** | (512, 512) | 1896 | 474 |
+| **TC_0005** | (512, 512) | 2664 | 666 |
+| **TC_0006** | (512, 512) | 2216 | 554 |
+
+## 4. Data Conversion & Usage
+To facilitate analysis with standard medical imaging software, custom Python scripts (using `nibabel`, `pydicom`, etc.) were used to convert the raw data.
+
+### Supported Formats
+1.  **NIfTI (`.nii`)**
+    * Designed for use with **3D Slicer**.
+    * Can be loaded as a **Volume** (standard image scrolling) or as a **Segmentation** (label map).
+2.  **DICOM (`.dcm`)**
+    * Designed for use with **RadiAnt DICOM Viewer**.
+    * Allows for 3D reconstruction, rotation, zooming, and real-time slicing.
 ________________________________________________________________________________________________________________________________________
 
 ** Acknowledgements**
