@@ -8,8 +8,10 @@ If you use this dataset in any publication, presentation, or derived work, pleas
 
 _______________________________________________________________________________________________________________________________________
 
+```diff
++ # Alzheimer Disease Decoding using EEG Data
+```
 
-# Alzheimer Disease Decoding using EEG Data
 
 ## 1. Dataset Overview
 EEG dataset used for the classification/decoding of Alzheimer (AD), Creutzfeldt Jacob-disease (CJD), and Healthy Control (CNTRL) subjects.
